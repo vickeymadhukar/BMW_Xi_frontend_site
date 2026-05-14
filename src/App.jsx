@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import ShowcaseSection from './components/ShowcaseSection';
 import ScrollVideoSection from './components/ScrollVideoSection';
 import ModelSection from './components/ModelSection';
+import EndingSection from './components/EndingSection';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -18,6 +19,7 @@ function App() {
       <HeroSection />
       <ShowcaseSection />
       <ScrollVideoSection />
+      <EndingSection />
     </div>
   );
 }
