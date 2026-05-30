@@ -42,3 +42,21 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+.glitch-char {
+  position: relative;
+  display: inline-block;
+  transform: skewX(-5deg);
+}
+
+.glitch-char-outline {
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+}
+
+.glitch-char-filled {
+  color: white;
+  -webkit-text-stroke: 1px white;
+}
+
+
