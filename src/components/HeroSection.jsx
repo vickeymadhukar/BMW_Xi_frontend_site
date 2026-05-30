@@ -69,7 +69,7 @@ const HeroSection = () => {
           <div className="absolute -bottom-10 md:-bottom-20 left-1/2 -translate-x-1/2 w-[80%] h-16 md:h-32 bg-black/10 blur-[50px] rounded-full"></div>
 
           <img
-            src="/images/bmwcar.png"
+            src="./images/bmwcar.png"
             alt="BMW iX1"
             className="w-full h-auto object-contain drop-shadow-2xl"
           />
